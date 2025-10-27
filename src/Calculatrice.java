@@ -48,6 +48,10 @@ public class Calculatrice {
         } else if (choix == 6) {
             resultat = num1 % num2;
             System.out.println("Résultat: " + resultat);
+
+        } else {
+            // Si le numéro tapé est erroné
+            System.out.println("Numéro d'opération invalide !");
         }
 
         scanner.close();
