@@ -13,15 +13,15 @@ public class Calculatrice {
         System.out.println("4. Division");
         System.out.print("Votre choix :");
 
+        int choix = scanner.nextInt();
+
         System.out.print("Entrez le premier nombre: ");
-        int num1 = scanner.nextInt();
+        double num1 = scanner.nextDouble();
 
         System.out.print("Entrez le deuxieme nombre: ");
-        int num2 = scanner.nextInt();
+        double num2 = scanner.nextDouble();
 
-        int resultat;
-
-        int choix = scanner.nextInt();
+        double resultat;
 
         if (choix == 1) {
             resultat = num1 + num2;
